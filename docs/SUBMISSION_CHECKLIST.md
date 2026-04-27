@@ -159,7 +159,8 @@ Allows capture on Formative pages the currently logged-in user can already acces
 Privacy policy:
 
 ```txt
-docs/PRIVACY_POLICY.md
+https://github.com/charlie2233/formative-ai-exporter/blob/main/docs/PRIVACY_POLICY.md
+Local source: docs/PRIVACY_POLICY.md
 ```
 
 Privacy tab single purpose:
@@ -178,6 +179,12 @@ Data sharing:
 
 ```txt
 No sharing with the developer, third parties, ad networks, analytics services, or a hosted backend.
+```
+
+Limited use disclosure:
+
+```txt
+Captured content is used only to create the user-requested local ZIP archive. It is not sold, transferred, used for ads, used for analytics, used to train models, reviewed by humans, or sent to a hosted backend.
 ```
 
 Remote code:

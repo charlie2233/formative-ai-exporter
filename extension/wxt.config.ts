@@ -8,6 +8,7 @@ export default defineConfig({
     name: "Practice Snapshot for Formative",
     version: "0.1.0",
     description: "Save a visible Formative practice as a local ZIP with text, answers, images, links, and screenshots.",
+    homepage_url: "https://github.com/charlie2233/formative-ai-exporter",
     permissions: ["activeTab", "scripting", "downloads", "offscreen", "storage"],
     host_permissions: [
       "https://app.formative.com/*",

@@ -118,6 +118,18 @@ Data transfer:
 The extension does not transmit captured content to the developer, analytics providers, advertising providers, a hosted backend, Formative APIs, Google APIs, or any third-party service.
 ```
 
+Limited use disclosure:
+
+```txt
+Captured content is used only to create the user-requested local ZIP archive. It is not sold, transferred, used for ads, used for analytics, used to train models, reviewed by humans, or sent to a hosted backend.
+```
+
+Privacy policy URL:
+
+```txt
+https://github.com/charlie2233/formative-ai-exporter/blob/main/docs/PRIVACY_POLICY.md
+```
+
 Remote code:
 
 ```txt
@@ -182,7 +194,7 @@ Run this on one real short Formative practice before submitting:
 8. Add a new item or upload a new package.
 9. Upload the generated Chrome ZIP.
 10. Fill Store Listing using the text above.
-11. Fill the Privacy tab using the answers above and `docs/PRIVACY_POLICY.md`.
+11. Fill the Privacy tab using the answers above and the public privacy policy URL.
 12. Set Distribution to `Unlisted`.
 13. Submit for review with deferred publishing.
 

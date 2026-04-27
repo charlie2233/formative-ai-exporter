@@ -26,7 +26,7 @@ This is a Chrome/Chromium extension-only MVP. It does not use the Formative API,
 
 The exporter stops before Submit, Finish, Turn In, Done, or Complete actions. It is meant for local archiving of user-visible Formative content only.
 
-See [docs/PRIVACY_POLICY.md](docs/PRIVACY_POLICY.md) for the privacy policy and [docs/CHROME_WEB_STORE.md](docs/CHROME_WEB_STORE.md) for the unlisted Chrome Web Store release checklist.
+See [docs/PRIVACY_POLICY.md](docs/PRIVACY_POLICY.md) for the privacy policy and [docs/CHROME_WEB_STORE.md](docs/CHROME_WEB_STORE.md) for the unlisted Chrome Web Store release checklist. The public privacy policy URL for Chrome Web Store submission is `https://github.com/charlie2233/formative-ai-exporter/blob/main/docs/PRIVACY_POLICY.md`.
 
 ## ZIP Output
 

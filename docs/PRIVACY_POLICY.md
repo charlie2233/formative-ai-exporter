@@ -20,6 +20,12 @@ When the user starts a capture, the extension reads content visible in the activ
 
 Exports are saved locally as ZIP files through the browser download flow. The extension does not send captured content to the developer, a hosted backend, analytics services, advertising services, or third-party APIs.
 
+## Limited Use And Local Processing
+
+Captured content is used only to create the user-requested local ZIP archive. It is not sold, transferred, used for ads, used for analytics, used to train models, reviewed by humans, or sent to a hosted backend.
+
+The extension does not collect persistent browsing history. Capture behavior does not run until the user starts a capture from the extension popup.
+
 ## No API, OAuth, Cookies, Tokens, Telemetry, Ads, Or Backend
 
 The extension does not use:
