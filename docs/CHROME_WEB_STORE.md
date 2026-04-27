@@ -98,6 +98,20 @@ Google API hosts
 remote code
 ```
 
+## Icon Assets
+
+The extension package includes generated PNG icons at:
+
+```txt
+icon/16.png
+icon/32.png
+icon/48.png
+icon/96.png
+icon/128.png
+```
+
+The icons are custom project artwork and do not use Formative logos or brand assets.
+
 ## Privacy Tab Answers
 
 Single purpose:

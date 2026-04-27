@@ -17,6 +17,8 @@ cd extension
 npm run release:check
 ```
 
+`release:check` regenerates the icon PNGs before typecheck, tests, build, zip, and runtime audit.
+
 ZIP checksum command:
 
 ```sh
@@ -68,6 +70,16 @@ webRequest
 tabs
 <all_urls>
 Google API hosts
+```
+
+Expected icon paths:
+
+```txt
+icon/16.png
+icon/32.png
+icon/48.png
+icon/96.png
+icon/128.png
 ```
 
 ## Store Listing
@@ -217,6 +229,7 @@ The extension does not submit answers, modify answers, finish practices, turn in
 - [ ] `git diff --check` passes.
 - [ ] ZIP SHA256 is recorded.
 - [ ] ZIP has `manifest.json` at root.
+- [ ] ZIP includes generated icon PNGs and manifest `icons`.
 - [ ] ZIP excludes tests, source maps, local env files, `node_modules`, and unrelated repo files.
 - [ ] One real Formative smoke is recorded in `docs/SMOKE_TEST_REPORT.md`.
 - [ ] Store listing and Privacy tab match `docs/PRIVACY_POLICY.md`.
